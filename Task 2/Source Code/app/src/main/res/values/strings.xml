@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task_2</string>
+    <string name="ENdate">Select a Date</string>
+    <string name="ENsnack">Show Snackbar</string>
+    <string name="ENdialog">Show Dialog Box</string>
+    <string name="ENprogess">Show Progress Bar</string>
+</resources>
