@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="8dp"
-    tools:context=".MainActivity">
+    tools:context=".UI.MainActivity">
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
@@ -13,6 +13,5 @@
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="204dp"
         tools:layout_editor_absoluteY="355dp"
-        tools:listitem="@layout/card_item"/>
-
+        tools:listitem="@layout/card"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

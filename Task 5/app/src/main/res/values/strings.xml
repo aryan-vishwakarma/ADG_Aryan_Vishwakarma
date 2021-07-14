@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Task 5</string>
+    <string name="degree">Degree</string>
+    <string name="files">Files</string>
+    <string name="assignments">Assignments</string>
+    <string name="photos">Photos</string>
+    <string name="png">PNG Images</string>
+    <string name="jpg">JPG Images</string>
+    <string name="word">Word Documents</string>
+    <string name="pdf">PDF Documents</string>
+    <string name="other">Other Settings</string>
+</resources>
