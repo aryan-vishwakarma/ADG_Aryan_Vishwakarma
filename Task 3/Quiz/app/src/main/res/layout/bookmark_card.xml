@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/ic_quiz_buttons2"
+    app:layout_constraintCircleRadius="15dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/bookmark_card_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:text="@string/question" />
+
+    <TextView
+        android:id="@+id/bookmark_card_answer"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:text="@string/answer" />
+
+    <TextView
+        android:id="@+id/bookmark_remove"
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/remove_bookmark"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/remove_background"/>
+</LinearLayout>
